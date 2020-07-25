@@ -8,7 +8,7 @@
 /* ***** Index of Stylesheet *****
 :: 1.0 Import Fonts
 :: 2.0 Import All CSS
-:: 3.0 Base CSS 
+:: 3.0 Base CSS
 :: 4.0 Header Area
 :: 5.0 Hero Area
 :: 6.0 About Me Area
@@ -555,17 +555,17 @@ textarea:focus {
 /* :: 7.0 Skills Area */
 .single-skils-area {
   position: relative;
-  z-index: 1;
+  z-index: 10;
   text-align: center; }
   .single-skils-area .circle {
     position: relative;
-    z-index: 1; }
+    z-index: 10; }
     .single-skils-area .circle span {
       font-size: 48px;
       position: absolute;
       top: 50%;
       left: 0;
-      width: 100%;
+      width: 50%;
       text-align: center;
       line-height: 1;
       font-weight: 500;

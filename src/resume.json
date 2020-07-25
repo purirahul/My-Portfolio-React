@@ -1,4 +1,46 @@
 {
   "name": "Rahul Puri",
-  "post": "SAP ABAP Deeloper & Web Developer"
+  "post": "SAP ABAP Deeloper & Web Developer",
+  "email": "rpuri648@gmail.com",
+  "phone": "+91 8826232973",
+  "fb": "https://www.facebook.com/profile.php?id=100009928621143",
+  "twit": "https://twitter.com/Rahulpuri1997",
+
+  "skills": [
+    {
+      "proficiency": 55,
+      "skill": "SAP ABAP"
+  },
+
+  {
+    "proficiency": 70,
+    "skill": "Android"
+  },
+
+  {
+    "proficiency": 65,
+    "skill": "JAVA"
+  },
+
+  {
+    "proficiency": 60,
+    "skill": "Python"
+  },
+
+  {
+    "proficiency": 75,
+    "skill": "HTML"
+  },
+
+  {
+    "proficiency": 70,
+    "skill": "CSS"
+  },
+
+  {
+    "proficiency": 60,
+    "skill": "JAVA Script"
+  }
+
+]
 }
