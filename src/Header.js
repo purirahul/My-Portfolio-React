@@ -29,9 +29,9 @@ class Header extends Component{
                                 <div className="classynav">
                                     <ul id="vcardMenu">
                                         <li className="active"><a href="#about">About</a></li>
+                                        <li><a href="#educ">Education</a></li>
                                         <li><a href="#skills">Skills</a></li>
-                                        <li><a href="#services">Services</a></li>
-                                        <li><a href="#portfolio">Portfolio</a></li>
+                                        <li><a href="#portfolio">Projects</a></li>
                                         <li><a href="#contact">Contact</a></li>
                                     </ul>
                               </div>

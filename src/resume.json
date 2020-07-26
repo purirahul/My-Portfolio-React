@@ -1,6 +1,6 @@
 {
   "name": "Rahul Puri",
-  "post": "SAP ABAP Deeloper & Web Developer",
+  "post": "SAP ABAP Developer & Web Developer",
   "email": "rpuri648@gmail.com",
   "phone": "+91 8826232973",
   "fb": "https://www.facebook.com/profile.php?id=100009928621143",
@@ -42,5 +42,89 @@
     "skill": "JAVA Script"
   }
 
+],
+
+"education": [
+  {
+    "qualification": "  BCA (Bachelor of Computer Application)",
+    "session": "   2016-2019",
+    "board": "     GGSIP",
+    "clg":"     Maharaja Surajmal Institute",
+    "grade": "   91.8"
+  },
+
+  {
+    "qualification": "  XII (10 + 2)",
+    "session": "   2015",
+    "board": "     CBSE",
+    "clg":"      Sarvodya Boys Sr. sec. School ",
+    "grade":"     76.4"
+
+  },
+
+  {
+    "qualification": "  X ",
+    "session": "   2013",
+    "board": "     CBSE",
+    "clg":"      Sarvodya Boys Sr. sec. School ",
+    "grade": "    8.6"
+  }
+
+],
+
+"projects": [
+  {
+    "img": "img/bg-img/shop.jpg",
+    "title": "FashionCart",
+    "desc": "A Shopping applicarion, where a customer can purchase fashion items like T-shirts, shirts, shoes etc.",
+    "det1": "Android Studio",
+    "det2": "Java, XML",
+    "det3": "Firebase",
+    "gitlink": "",
+    "hostlink": ""
+  },
+
+  {
+    "img": "img/bg-img/event.jpg",
+    "title": "Events and Notices",
+    "desc": "An android application for college to update important events and notices, so that students can get notifications immediately",
+    "det1": "Android Studio",
+    "det2": "Java, XML",
+    "det3": "Firebase",
+    "gitlink": "",
+    "hostlink": ""
+  },
+
+  {
+    "img": "img/bg-img/resume1.jpg",
+    "title": "My Resume",
+    "desc": "A web application that shoes my portfolio",
+    "det1": "React.js",
+    "det2": "HTML, CSS, JS",
+    "det3": "Bootstrap",
+    "gitlink": "https://github.com/purirahul/My-Portfolio-React",
+    "hostlink": ""
+  },
+
+  {
+    "img": "img/bg-img/sum.png",
+    "title": "Sum Game",
+    "desc": "A game that ask for a question to sum two random numbers and with 4 random options",
+    "det1": "React.js",
+    "det2": "HTML, CSS, JS",
+    "det3": "Bootstrap",
+    "gitlink": "https://github.com/purirahul/Sum-Game-React",
+    "hostlink": ""
+  },
+  {
+    "img": "img/bg-img/todo.jpg",
+    "title": "To Do APP",
+    "desc": "A To DO list application where one can add, delete, update and personalize the pending works",
+    "det1": "Python",
+    "det2": "HTML, CSS",
+    "det3": "Django",
+    "gitlink": "https://github.com/purirahul/To-Do-",
+    "hostlink": ""
+  }
 ]
 }

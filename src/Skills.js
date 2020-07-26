@@ -6,7 +6,7 @@ class Skills extends Component{
   render(){
     return(
       <div className="col-12 col-sm-6 col-lg-3">
-          <div className="single-skils-area mb-100 wow fadeInUp" data-wow-delay="100ms">
+          <div className="single-skils-area mb-50 wow fadeInUp " data-wow-delay="400ms">
                   <span><CircularProgressbar value={this.props.skill.proficiency} text={this.props.skill.skill} styles={{
                     root: {
                       radius: 50

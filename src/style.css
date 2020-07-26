@@ -214,15 +214,15 @@ img {
     height: 8px;
     background-color: #fff;
     border-radius: 5px;
-    -webkit-animation: vcard-load 2.5s ease-in-out infinite;
-    animation: vcard-load 2.5s ease-in-out infinite;
+    -webkit-animation: vcard-load 10s ease-in-out infinite;
+    animation: vcard-load 10s ease-in-out infinite;
     z-index: 10; }
     #preloader .loader:before, #preloader .loader:after {
       position: absolute;
       display: block;
       content: "";
-      -webkit-animation: vcard-load 2s ease-in-out infinite;
-      animation: vcard-load 2s ease-in-out infinite;
+      -webkit-animation: vcard-load 9s ease-in-out infinite;
+      animation: vcard-load 9s ease-in-out infinite;
       height: 8px;
       border-radius: 5px; }
     #preloader .loader:before {
