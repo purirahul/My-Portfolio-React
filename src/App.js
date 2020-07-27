@@ -8,6 +8,8 @@ import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import Education from './Education.js'
 import Projects from './Projects.js'
+import Experience from './Experience.js'
+import Achievement from './Achievement.js'
 
 
 class App extends Component {
@@ -39,12 +41,50 @@ class App extends Component {
   }
 
 
+  renderExper(){
+    let resExpArray = [];
+    resume.exp.map((exp, i) =>
+      resExpArray.push(<Experience exp={exp} key={i} />)
+  );
+    return resExpArray;
+  }
+
+  renderAchievements(){
+    let resAchArray = [];
+    resume.achievemnts.map((ach, i) =>
+      resAchArray.push(<Achievement ach={ach} key={i} />)
+  );
+    return resAchArray;
+  }
+
   render(){
   return (
     <div>
       <Header />
 
-      <section className="portfolio-area section-padding-100 clearfix" id="educ">
+
+      <section className="portfolio-area section-padding-100 clearfix" id="exp">
+
+          <div className="container">
+              <div className="row">
+
+                  <div className="col-12">
+                      <div className="section-heading text-center wow fadeInUp" data-wow-delay="300ms">
+                          <div className="line mx-auto"></div>
+                          <h2>Experience</h2>
+                      </div>
+                  </div>
+              </div>
+
+              <div className="row">
+
+                  {this.renderExper()}
+              </div>
+            </div>
+      </section>
+
+
+      <section className="portfolio-area section-padding-100 clearfix mt-10" id="educ">
 
           <div className="container">
               <div className="row">
@@ -84,6 +124,8 @@ class App extends Component {
         </section>
         </div>
 
+
+
         <section className="portfolio-area section-padding-100 clearfix" id="portfolio">
             <div className="container">
                 <div className="row">
@@ -100,33 +142,6 @@ class App extends Component {
                       {this.renderProjects()}
                   </div>
                 </div>
-          </section>
-
-
-          <section class="testimonials-area section-padding-100 mt-10">
-              <div class="container">
-                  <div class="row">
-
-                      <div class="col-12">
-                          <div class="section-heading text-center wow fadeInUp mt-10" data-wow-delay="300ms">
-                              <div class="line mx-auto"></div>
-                              <h2>Achievements</h2>
-                          </div>
-                      </div>
-                  </div>
-
-                  <div class="row">
-                      <div class="col-12">
-
-
-                          <div class="testimonial-slides owl-carousel wow fadeInUp" data-wow-delay="500ms">
-                            <div class="single-testimonial">
-                              <img src="img/bg-img/resume.jpg"/>
-                            </div>
-                          </div>
-                        </div>
-                  </div>
-              </div>
           </section>
       </div>
     );

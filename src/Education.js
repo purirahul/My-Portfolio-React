@@ -8,7 +8,7 @@ class Education extends Component{
 
     return(
 
-      <Card className="single-skils-area mb-50 wow fadeInUp  mt-10" data-wow-delay="200ms" style={{ width: '18rem', marginLeft: '70px', backgroundColor: '#ffd500', borderRadius: '10px', textAlign: 'left',boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)' }}>
+      <Card className=" mb-50 wow fadeInUp  " data-wow-delay="200ms" style={{ width: '18rem', marginLeft: '70px', backgroundColor: '#ffd500', borderRadius: '10px', textAlign: 'left',boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)' }}>
         <Card.Body>
             <Card.Title>{this.props.edu.qualification}</Card.Title>
         </Card.Body>

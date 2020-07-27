@@ -126,5 +126,33 @@
     "gitlink": "https://github.com/purirahul/To-Do-",
     "hostlink": ""
   }
-]
+],
+
+  "exp": [
+    {
+        "exp": "Software Engineer",
+        "period": "July, 2020 - Present ",
+        "company": "Capgemini India Pvt. Ltd.",
+        "text": "During this period I am working as shadow in a project where I learned how to work in a real life projects. Also I get opportunity to learn more day by day about SAP ABAP."
+    },
+
+    {
+        "exp": "Software Associate",
+        "period": "June, 2019 - June, 2020" ,
+        "company": "Capgemini India Pvt. Ltd.",
+        "text": "During this period there was 3 months In-house training on SAP ABAP on Hana. And I secured 3rd rank in this training. After that I worked on my upskilling on SAP ABAP on Hana as well as other technical skills as Data Analytics, web development etc."
+    }
+  ],
+
+  "achievemnts": [
+    {
+      "num": "0",
+      "img": "img/bg-img/bg1.jpg"
+    },
+
+    {
+      "num": "1",
+      "img": "img/bg-img/event.jpg"
+    }
+  ]
 }
