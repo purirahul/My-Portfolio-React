@@ -6,12 +6,10 @@ class Achievement extends Component{
   render(){
     return(
 
-      <div className="carousel-inner">
-          <div className="carousel-item active">
+          <div className="carousel-item " >
               <img className="d-block w-100" src={this.props.ach.img} alt="First slide" />
           </div>
-        </div>
-    )
+        )
   }
 }
 

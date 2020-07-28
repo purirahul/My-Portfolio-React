@@ -146,13 +146,17 @@
 
   "achievemnts": [
     {
-      "num": "0",
-      "img": "img/bg-img/bg1.jpg"
+      "img": "img/bg-img/cert3.png"
     },
 
     {
-      "num": "1",
-      "img": "img/bg-img/event.jpg"
+      "img": "img/bg-img/cert4.png"
+    },
+    {
+      "img": "img/bg-img/cert5.png"
+    },
+    {
+      "img": "img/bg-img/cert4.png"
     }
   ]
 }

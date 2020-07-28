@@ -127,7 +127,7 @@ class App extends Component {
 
 
         <section className="portfolio-area section-padding-100 clearfix" id="portfolio">
-            <div className="container">
+            <div className="container" style={{marginBottom: 'none'}}>
                 <div className="row">
 
                     <div className="col-12">
@@ -143,6 +143,40 @@ class App extends Component {
                   </div>
                 </div>
           </section>
+
+      <section className="portfolio-area  clearfix" id="portfolio">
+
+        <div className="row">
+
+            <div className="col-12">
+                <div className="section-heading text-center mb-50 wow fadeInUp" data-wow-delay="300ms">
+                    <div className="line mx-auto"></div>
+                    <h2>Achievements</h2>
+                </div>
+            </div>
+          </div>
+
+
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style={{width: '800px', align: 'center', marginLeft: 'auto', marginRight: 'auto'}}>
+          <div class="carousel-inner" >
+          <div class="carousel-item active" >
+              <img class="d-block w-100" src="img/bg-img/cert1.png" alt="First slide" />
+          </div>
+
+            {this.renderAchievements()}
+          </div>
+
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+                <span class="sr-only">Previous</span>
+          </a>
+
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          </div>
+      </section>
       </div>
     );
 }
