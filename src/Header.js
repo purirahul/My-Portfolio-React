@@ -7,7 +7,7 @@ class Header extends Component{
   render(){
 
     return(
-      <div>
+
       <header className="header-area">
             <div className="vcard-main-menu">
                 <div className="classy-nav-container breakpoint-off">
@@ -42,10 +42,6 @@ class Header extends Component{
                 </div>
             </div>
         </header>
-
-        <AboutInfo />
-
-      </div>
     )
   }
 }

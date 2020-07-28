@@ -10,6 +10,7 @@ import Education from './Education.js'
 import Projects from './Projects.js'
 import Experience from './Experience.js'
 import Achievement from './Achievement.js'
+import AboutInfo from './AboutInfo.js'
 
 
 class App extends Component {
@@ -61,7 +62,7 @@ class App extends Component {
   return (
     <div>
       <Header />
-
+      <AboutInfo />
 
       <section className="portfolio-area section-padding-100 clearfix" id="exp">
 
