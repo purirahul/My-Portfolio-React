@@ -73,6 +73,18 @@
 ],
 
 "projects": [
+
+  {
+    "img": "img/bg-img/news.jpg",
+    "title": "Way2 Be Up TO Date",
+    "desc": "A New website built on react and using api where ou can search for any news and have filter buttons like science, business, sports etc.",
+    "det1": "React.js",
+    "det2": "HTML, CSS, JS, bootstrap",
+    "det3": "gnews api",
+    "gitlink": "https://github.com/purirahul/News-App-React",
+    "hostlink": "http://way2beuptodate.herokuapp.com/"
+  },
+
   {
     "img": "img/bg-img/shop.jpg",
     "title": "FashionCart",

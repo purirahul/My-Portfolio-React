@@ -20,7 +20,7 @@ class Projects extends Component{
     </ListGroup>
     <Card.Body>
         <Card.Link href={this.props.pro.gitlink}>Code</Card.Link>
-        <Card.Link href="#">Live</Card.Link>
+        <Card.Link href={this.props.pro.hostlink}>Live</Card.Link>
     </Card.Body>
   </Card>
   )
